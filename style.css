@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f5c6d;
+    height: 60px;
+    font-size: 1.5rem;
+    color: azure;
+    align-items: center;
+}
+
+nav div:first-of-type {
+    text-transform: uppercase;
+}
+
+nav div a{
+    padding: 0 20px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+nav div a:hover{
+    color: burlywood;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section{
+    padding-right: 2px;
+    padding-left: 2px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
+}
+
+section .item {
+    height: 300px;
+    background-color: #1f5c6d;
+}
+
+#section2{
+    padding-right: 2px;
+    padding-left: 2px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 5px;
+}
+
+#section2 .sidebar{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 200px;
+    background-color: #1f5c6d;
+}
+
+#section2 .sidebar a{
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#section2 .block{
+    height: 200px;
+    background-color: #1f5c6d;
+}
+
+#section3{
+    padding-right: 2px;
+    padding-left: 2px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 5px;
+}
+
+#section3 .section25{
+    background-color: #1f5c6d;
+    height: 200px;
+}
+#section3 .section50{
+    background-color: #1f5c6d;
+    height: 200px;
+}
+#section3 .section25{
+    background-color: #1f5c6d;
+    height: 200px;
+}
